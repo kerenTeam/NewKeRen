@@ -1,18 +1,19 @@
-<?php include 'header.php';?> 
+
+
 <!-- banner -->
 <style>
 	.hsbimg{
 		height: 900px;
-		background: url('../skin/img/top_bg.png') 0 50% no-repeat;
+		background: url('skin/img/top_bg.png') 0 50% no-repeat;
 		background-attachment: fixed;
 	}
 </style>
 <div class="banner">
 <div class="hidden-xs hsbimg">
-<!-- 	<img src="../skin/img/top_bg.png" alt="keren">
+<!-- 	<img src="skin/img/top_bg.png" alt="keren">
  --></div>
 <div class="visible-xs vx" style="top: 0;">
-	<img src="../skin/img/iphoneimg.png" id="devImg" alt="keren">
+	<img src="skin/img/iphoneimg.png" id="devImg" alt="keren">
 </div>
 <div class="welcome">
 	<h1>HELLO! 互联网</h1>
@@ -30,9 +31,9 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case1.png">
+				<img src="skin/img/case1.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon3.png">
+				<img class="two" src="skin/img/case_icon3.png">
 				<p>
 					信息构架.低保真原型.
 					<br>
@@ -44,9 +45,9 @@
 		</div>
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case2.png">
+				<img src="skin/img/case2.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon2.png">
+				<img class="two" src="skin/img/case_icon2.png">
 				<p>
 					视觉设计.美术创意.
 					<br>
@@ -58,9 +59,9 @@
 		</div>
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case3.png">
+				<img src="skin/img/case3.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon1.png">
+				<img class="two" src="skin/img/case_icon1.png">
 				<p>
 					品牌网站设计开发.展示营销网站.
 					<br>
@@ -70,12 +71,12 @@
 				</p>
 			</div>
 		</div>
-	</div> 
+	</div>
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case4.png">
+				<img src="skin/img/case4.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon1.png">
+				<img class="two" src="skin/img/case_icon1.png">
 				<p>
 					移动界面设计.iOS/Android界面设计.
 					<br>
@@ -87,9 +88,9 @@
 		</div>
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case5.png">
+				<img src="skin/img/case5.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon2.png">
+				<img class="two" src="skin/img/case_icon2.png">
 				<p>
 					Windows软件界面设计.MacOS软件界面设计.
 					<br>
@@ -101,9 +102,9 @@
 		</div>
 		<div class="col-md-4">
 			<div class="case_pics">
-				<img src="../skin/img/case6.png">
+				<img src="skin/img/case6.png">
 				<br>
-				<img class="two" src="../skin/img/case_icon3.png">
+				<img class="two" src="skin/img/case_icon3.png">
 				<p>
 					标志设计及企业VI体系.产品平面设计.
 					<br>
@@ -112,7 +113,7 @@
 					广告设计.
 				</p>
 			</div>
-		</div> 
+		</div>
 </div>
 <div class="pro_hr">
 	<div class="container">
@@ -145,19 +146,19 @@
 				<!-- 轮播-->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img src="../skin/img/sev1.png" alt="keren">
+						<img src="skin/img/sev1.png" alt="keren">
 						<div class="carousel-caption">
 					      我们多年来积累了大量优秀的项目案例.并验证了产品以及产品设计的价值.在不断的探索中总结经验.以结果为导向.继续为更多客户提供优秀的产品和产品设计.
 					    </div>
 					</div>
 					<div class="item">
-						<img src="../skin/img/sev2.png" alt="keren">
+						<img src="skin/img/sev2.png" alt="keren">
 						<div class="carousel-caption">
 					      我们多年来积累了大量优秀的项目案例.并验证了产品以及产品设计的价值.在不断的探索中总结经验.以结果为导向.继续为更多客户提供优秀的产品和产品设计.
 					    </div>
 					</div>
 					<div class="item">
-						<img src="../skin/img/sev3.png" alt="keren">
+						<img src="skin/img/sev3.png" alt="keren">
 						<div class="carousel-caption">
 					      我们多年来积累了大量优秀的项目案例.并验证了产品以及产品设计的价值.在不断的探索中总结经验.以结果为导向.继续为更多客户提供优秀的产品和产品设计.
 					    </div>
@@ -166,12 +167,12 @@
 				<!-- Controls -->
 				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left hidden-xs" aria-hidden="true">
-						<img src="../skin/img/left.png">
+						<img src="skin/img/left.png">
 					</span>
 					<span class="sr-only">Previous</span>
 				</a>
 				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right hidden-xs" aria-hidden="true"> <img src="../skin/img/right.png">
+					<span class="glyphicon glyphicon-chevron-right hidden-xs" aria-hidden="true"> <img src="skin/img/right.png">
 					</span>
 					<span class="sr-only">Next</span>
 				</a>
@@ -189,7 +190,7 @@
 			<p class="crr_tit2">以“为客户服务”为理念致力于更好的产品.为客户需找最好的解决方案.</p>
 			<a href="case.php" class="case_btn crr_jp">更多产品案例</a>
 			<div class="more_img">
-				<!-- <img src="../skin/img/iphone.png"> -->
+				<!-- <img src="skin/img/iphone.png"> -->
 				<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
@@ -200,22 +201,22 @@
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner" role="listbox">
 						<div class="item active">
-							<img src="../skin/img/caseimg1.png" alt="keren">
+							<img src="skin/img/caseimg1.png" alt="keren">
 						</div>
 						<div class="item">
-							<img src="../skin/img/caseimg2.png" alt="keren">
+							<img src="skin/img/caseimg2.png" alt="keren">
 						</div>
 						<div class="item">
-							<img src="../skin/img/caseimg3.png" alt="keren">
+							<img src="skin/img/caseimg3.png" alt="keren">
 						</div>
 					</div>
 					<!-- Controls -->
 					<a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left hidden-xs" aria-hidden="true"><img src="../skin/img/left.png"></span>
+						<span class="glyphicon glyphicon-chevron-left hidden-xs" aria-hidden="true"><img src="skin/img/left.png"></span>
 						<span class="sr-only">Previous</span>
 					</a>
 					<a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right hidden-xs" aria-hidden="true"><img src="../skin/img/right.png"></span>
+						<span class="glyphicon glyphicon-chevron-right hidden-xs" aria-hidden="true"><img src="skin/img/right.png"></span>
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
@@ -224,7 +225,7 @@
 				<div class="hidden-xs">
 					<div class="col-lg-4">
 						<div class="more_cap">
-							<img src="../skin/img/more_icon1.png">
+							<img src="skin/img/more_icon1.png">
 							<h3>价值服务</h3>
 							<p>
 								坚持做对客户有帮助有价值的事情.
@@ -243,7 +244,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="more_cap">
-							<img src="../skin/img/more_icon2.png">
+							<img src="skin/img/more_icon2.png">
 							<h3>完美主义</h3>
 							<p>
 								我们追求设计.技术.用户体验.追求完美.
@@ -262,7 +263,7 @@
 					</div>
 					<div class="col-lg-4">
 						<div class="more_cap">
-							<img src="../skin/img/more_icon3.png">
+							<img src="skin/img/more_icon3.png">
 							<h3>服务取胜</h3>
 							<p>
 								注意服务.遵守承诺如果整条街卖的东西都一样.
@@ -278,13 +279,13 @@
 								按时守时.遵守承诺.
 							</p>
 						</div>
-					</div> 
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- 可人 -->
 		<div class="consultation" id="krinfo">
-			<img src="../skin/img/consultation.png">
+			<img src="skin/img/consultation.png">
 			<p class="hidden-xs">
 				成都可人软件有限公司致力于为企业提供有价值的产品服务.以需求为导向.求真务实.
 				<br>
@@ -313,20 +314,20 @@
 	<div class="container">
 		<div class="row contact_divs">
 			<div class="con-lg-3 col-sm-3 col-xs-6">
-				<img src="../skin/img/qq.png">
+				<img src="skin/img/qq.png">
 				<p>QQ: 957851100</p>
 			</div>
 			<div class="con-lg-3 col-sm-3 col-xs-6">
-				<img src="../skin/img/wechat.png">
+				<img src="skin/img/wechat.png">
 				<p>公众号： Cdkrrj</p>
 			</div>
 			<div class="con-lg-3 col-sm-3 col-xs-6">
-				<img src="../skin/img/mail.png">
+				<img src="skin/img/mail.png">
 				<p>邮件： 957851100@qq.com</p>
 			</div>
-			
+
 			<div class="con-lg-3 col-sm-3 col-xs-6">
-				<img src="../skin/img/add.png">
+				<img src="skin/img/add.png">
 				<p>地址： 成都市高新区天府二街蜀都中心3号楼1108号</p>
 			</div>
 		</div>
@@ -352,7 +353,7 @@
 		<h2 class="crr_tit">如何练就优秀的项目体验</h2>
 		<p class="crr_tit2">创意、流程、执行缺一不可</p>
 		<div class="pro_bor2"></div>
-		<img src="../skin/img/pro-banner.png">
+		<img src="skin/img/pro-banner.png">
 	</div>
 </div>
 <div class="banner_hr"></div>
@@ -459,4 +460,4 @@ map.addControl(navControl);
 var map;
 initMap();
 </script>
-<?php include 'footer.php';?>
+
