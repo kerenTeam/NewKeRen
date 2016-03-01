@@ -475,11 +475,11 @@ Main components
 }
 @media only screen and (min-width:768px) {
   .cd-main-content {
-    padding-top: 70px;
+    padding-top: 78px;
   }
 }
 header {
-  background-color: rgba(25, 6, 42, 0.71);
+  /*background-color: rgb(25, 6, 42);*/
   position: fixed;
   top: 0;
   left: 0;
@@ -488,12 +488,11 @@ header {
   z-index: 3;/* Force Hardware Acceleration in WebKit */
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.2s ease;
+  -ms- transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 header.lateral-menu-is-open {
 
@@ -509,7 +508,7 @@ header.is-fixed {
 }
 @media only screen and (min-width:768px) {
   header {
-    height: 70px;
+    height: 78px;
   }
 }
 #cd-logo {
@@ -522,7 +521,7 @@ header.is-fixed {
 }
 @media only screen and (min-width:768px) {
   #cd-logo {
-    margin: 22px 0 0 30px;
+    margin: 15px 0 0 30px;
   }
 }
 #cd-top-nav {
@@ -590,8 +589,8 @@ header.is-fixed {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  width: 18px;
-  height: 2px;
+  width: 22px;
+  height: 3px;
   background-color: #FFF;/* these are the upper and lower lines in the menu menu */
 }
 #cd-menu-trigger .cd-menu-icon::before, #cd-menu-trigger .cd-menu-icon:after {
@@ -605,10 +604,10 @@ header.is-fixed {
   -webkit-backface-visibility: hidden;
 }
 #cd-menu-trigger .cd-menu-icon::before {
-  bottom: 5px;
+  bottom: 7px;
 }
 #cd-menu-trigger .cd-menu-icon::after {
-  top: 5px;
+  top: 7px;
 }
 #cd-menu-trigger.is-clicked .cd-menu-icon {
   background-color: rgba(255, 255, 255, 0);
@@ -1248,7 +1247,7 @@ header.is-fixed {
     line-height: 1.6rem;
   }
   #ph_logo {
-    width: 90%;
+    /*width: 90%;*/
     margin-top: .3em;
   }
   .welcome {

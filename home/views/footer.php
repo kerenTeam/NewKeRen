@@ -3,10 +3,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-5 text-right">
-				<img src="skin/img/footcode.png">
+				<img src="../skin/img/footcode.png">
 			</div>
 			<div class="col-sm-7 botleft">
-				<h2><i><img src="skin/img/statistics.png"></i>浏览统计: 100.005.20</h2>
+				<h2><i><img src="../skin/img/statistics.png"></i>浏览统计: 100.005.20</h2>
 				<p>Copyright&copy;2012-2015 krrjgf.可人软件版权所有Power by krrjgf 蜀ICP备14021068号</p>
 			</div>
 		</div>
@@ -16,7 +16,7 @@
 <nav id="cd-lateral-nav">
 	<ul class="cd-navigation">
 	        <li class="item-has-children"><br><br>
-			   <img id="fimg" src="skin/img/logo.png" alt="keren"><br><br>
+			   <img id="fimg" src="../skin/img/logo.png" alt="keren"><br><br>
 			</li>
 		    <li>
 			    <a href="index.php">首页</a>
@@ -48,8 +48,8 @@
 	<script type="text/javascript" charset="utf-8" async defer>
 		// 第一种 判断屏幕尺寸
 		if (screen && screen.width <= 768) {
-	document.write('<script type="text/javascript" src="skin/js/main.js"><\/script>');
+	document.write('<script type="text/javascript" src="../skin/js/main.js"><\/script>');
 	}
 	</script>
-	<script src="skin/js/bootstrap.js"></script>
+	<script src="../skin/js/bootstrap.js"></script>
 </html>
