@@ -15,30 +15,30 @@
 		<title>可人软件</title>
 	</head>
 <script>
-$(function(){
-	  //alert((urlstr + '/').indexOf($(this).attr('href')));
-	           var urlstr = location.href;
-                var urlstatus=false;
-                $(".krnav a").each(function () {
-                    if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
-                        $(this).parent().addClass('active'); urlstatus = true;
-                    } else {
-                        $(this).parent().removeClass('active');
-                    }
-                });
-                if (!urlstatus) {$(".krnav a").eq(0).addClass('active');}
+    $(function(){
+       //alert((urlstr + '/').indexOf($(this).attr('href')));
+       var urlstr = location.href;
+        var urlstatus=false;
+        $(".krnav a").each(function () {
+            if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+                $(this).parent().addClass('active'); urlstatus = true;
+            } else {
+                $(this).parent().removeClass('active');
+            }
+        });
+        if (!urlstatus) {$(".krnav a").eq(0).addClass('active');}
 
-})
-		
-				if (screen && screen.width <= 768) {
-				$(document).ready(function()
-				{ 
-					var width = $(window).width();
-					var height = $(window).height();
-				 $("#devImg").attr("width",width+'px');
-				 $("#devImg").attr("height",height+'px');
-				});
-				} 
+    })
+
+	  if (screen && screen.width <= 768) {
+    $(document).ready(function()
+		{ 
+			var width = $(window).width();
+			var height = $(window).height();
+		 $("#devImg").attr("width",width+'px');
+		 $("#devImg").attr("height",height+'px');
+		});
+		} 
 </script>
 	<body id="back-top">
 
