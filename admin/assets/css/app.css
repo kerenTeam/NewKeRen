@@ -1,1 +1,13 @@
 /* Write your styles */
+#preview{
+	margin-top: 15px;
+}
+.upload-add {
+    margin-top: 10px;
+}
+footer{
+	text-align: center;
+}
+.admin-content{
+	padding-bottom: 10%;
+}

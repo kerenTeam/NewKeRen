@@ -16,6 +16,7 @@
   <meta name="apple-mobile-web-app-title" content="Amaze UI" />
   <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
   <link rel="stylesheet" href="assets/css/admin.css">
+  <link rel="stylesheet" href="assets/css/app.css">
   <link rel="stylesheet" href="assets/css/wxapp.css">
   <script src="assets/js/jquery.min.js"></script>
 </head>
@@ -57,9 +58,17 @@
     <div class="am-offcanvas-bar admin-offcanvas-bar">
       <ul class="am-list admin-sidebar-list">
       <li><a href="<?php echo site_url('indexCT/index');?>"><span class="am-icon-home"></span> 管理中心</a></li>
-        <li><a href="<?php echo site_url('pc_index/anli')?>"><span class="am-icon-file"></span> 案例</a></li>
-        
-        <li><a href="<?php echo site_url('pc_index/zhaop')?>"><span class="am-icon-user-plus"></span> 招聘</a></li>
+      <li><a href="<?php echo site_url('pc_index/about')?>"><span class="am-icon-user"></span> 关于我们</a></li>
+      <li><a href="<?php echo site_url('pc_index/anli')?>"><span class="am-icon-file"></span> 案例</a></li>
+      <li><a href="<?php echo site_url('pc_index/zhaop')?>"><span class="am-icon-user-plus"></span> 招聘</a></li>
+      <li>
+          <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-desktop"></span> 图片管理 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+          <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+            <li><a href="<?php echo site_url('pc_index/banner')?>" class="am-cf"><span class="am-icon-photo"></span> banner</a></li>
+            <li><a href="<?php echo site_url('pc_index/pageimg')?>"><span class="am-icon-file-image-o"></span> 页面图片修改</a></li>
+
+          </ul>
+        </li>
       </ul>
 
       <div class="am-panel am-panel-default admin-sidebar-panel">

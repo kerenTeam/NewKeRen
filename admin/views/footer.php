@@ -6,7 +6,7 @@
 
 <footer>
   <hr>
-  <p class="am-padding-left">© 2014 AllMobilize, Inc. Licensed under MIT license.</p>
+  <p class="am-padding-left">Copyright © 2012-2015 krrjgf.  可人软件 版权所有Power by krrjgf 蜀ICP备14021068号.</p>
 </footer>
 
 <!--[if lt IE 9]>
@@ -16,9 +16,9 @@
 <![endif]-->
 
 <!--[if (gte IE 9)|!(IE)]><!-->
-<script src="assets/js/jquery.min.js"></script>
 <!--<![endif]-->
 <script src="assets/js/amazeui.min.js"></script>
+<script src="assets/js/imgup.js"></script>
 <script src="assets/js/app.js"></script>
 <script src="assets/js/jPages.js"></script>
 <script>

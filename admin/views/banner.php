@@ -1,14 +1,10 @@
+ <!-- content start -->
+  <div class="admin-content">
+    <div class="am-cf am-padding">
+      <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">图片管理</strong> / <small>banner</small></div>
+    </div>
 
-
-
-<!-- content start -->
-<div class="admin-content">
-<div class="am-cf am-padding">
-    <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">添加案例</strong></div>
-  </div>
-
-<!-- 表单start -->
-   <hr/>
+    <hr/>
 
     <div class="am-g">
 
@@ -16,18 +12,19 @@
       </div>
 
       <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+       <!-- 表单 start -->
         <form action=" " method=" " enctype="multipart/form-data" class="am-form am-form-horizontal">
           <div class="am-form-group">
-            <label class="am-u-sm-3 am-form-label">标题</label>
+            <label class="am-u-sm-3 am-form-label">所属页面</label>
             <div class="am-u-sm-9">
-              <input type="text" placeholder="标题">
-            </div>
-          </div>
+              <select data-am-selected="{btnSize: 'sm'}">
+                <option value=" ">首页</option>
+	            <option value=" ">服务</option>
+	            <option value=" ">关于</option>
+	            <option value=" ">案例</option>
+	            <option value=" ">招聘</option>
+              </select>
 
-          <div class="am-form-group">
-            <label class="am-u-sm-3 am-form-label">简介</label>
-            <div class="am-u-sm-9">
-              <textarea rows="4" placeholder="简短说明"></textarea>
             </div>
           </div>
 
@@ -43,12 +40,14 @@
           <div class="am-form-group">
             <label class="am-u-sm-3 am-form-label">图文内容</label>
             <div class="am-u-sm-9">
+            <!-- 编辑器 -->
                <link href="assets/uediter/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+                  <script type="text/javascript" src="assets//uediter/third-party/jquery.min.js"></script> 
                   <script type="text/javascript" charset="utf-8" src="assets/uediter/umeditor.config.js"></script> 
                   <script type="text/javascript" charset="utf-8" src="assets/uediter/umeditor.js"></script> 
                   <script type="text/javascript" src="assets/uediter/lang/zh-cn/zh-cn.js"></script>
                   <div style="margin-left: -20px;"> 
-                    <script id="myEditor" type="text/plain" style="width:100%;height:500px;"></script>
+                    <script id="myEditor" type="text/plain" style="width:90%;height:500px;"></script>
 
                   </div>
                   <script type="text/javascript">
@@ -69,5 +68,5 @@
         </form>
       </div>
     </div>
-</div>
-<!-- content end -->
+  </div>
+  <!-- content end -->

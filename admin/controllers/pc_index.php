@@ -15,10 +15,28 @@ class pc_index extends CI_Controller {
 	    $this->load->view('case');
 	    $this->load->view('footer');
 	}
+	public function about()
+	{
+		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
+	    $this->load->view('about');
+	    $this->load->view('footer');
+	}
 	public function zhaop()
 	{
 		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
 	    $this->load->view('zhaop');
+	    $this->load->view('footer');
+	}
+	public function banner()
+	{
+		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
+	    $this->load->view('banner');
+	    $this->load->view('footer');
+	}
+	public function pageimg()
+	{
+		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
+	    $this->load->view('pageimg');
 	    $this->load->view('footer');
 	}
 	public function addcase()
