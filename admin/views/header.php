@@ -59,7 +59,7 @@
       <li><a href="<?php echo site_url('indexCT/index');?>"><span class="am-icon-home"></span> 管理中心</a></li>
         <li><a href="<?php echo site_url('pc_index/anli')?>"><span class="am-icon-file"></span> 案例</a></li>
         
-        <li><a href="<?php echo site_url('pc_index/zhaop')?>"><span class="am-icon-pencil-square-o"></span> 招聘</a></li>
+        <li><a href="<?php echo site_url('pc_index/zhaop')?>"><span class="am-icon-user-plus"></span> 招聘</a></li>
       </ul>
 
       <div class="am-panel am-panel-default admin-sidebar-panel">
