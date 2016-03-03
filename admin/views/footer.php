@@ -20,5 +20,17 @@
 <!--<![endif]-->
 <script src="assets/js/amazeui.min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/jPages.js"></script>
+<script>
+  $(function(){
+    $("div.holder").jPages({
+      containerID : "movies",
+      previous : "上一页",
+      next : "下一页",
+      perPage : 5,
+      delay : 5
+    });
+  });
+  </script>
 </body>
 </html>

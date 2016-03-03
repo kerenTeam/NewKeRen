@@ -12,25 +12,38 @@ class pc_index extends CI_Controller {
 	public function anli()
 	{
 		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
-	    $this->load->view('pc_case');
+	    $this->load->view('case');
 	    $this->load->view('footer');
 	}
 	public function zhaop()
 	{
 		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
-	    $this->load->view('pc_zhaop');
+	    $this->load->view('zhaop');
 	    $this->load->view('footer');
 	}
 	public function addcase()
 	{
 		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
-	    $this->load->view('pc_addcase');
+	    $this->load->view('addcase');
 	    $this->load->view('footer');
 	}
 	public function addzp()
 	{
 		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
-	    $this->load->view('pc_addzp');
+	    $this->load->view('addzp');
+	    $this->load->view('footer');
+	}
+	public function editcase()
+	{
+		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
+	    $this->load->view('editcase');
+	    $this->load->view('footer');
+	}
+
+	public function editzp()
+	{
+		// if ( ! file_exists(APPPATH.'index.php')){show_404();}
+	    $this->load->view('editzp');
 	    $this->load->view('footer');
 	}
 	

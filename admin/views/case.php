@@ -1,5 +1,5 @@
 <!-- content start -->
-<div class="admin-content">
+<div class="admin-content kr_btn_color">
   <div class="am-cf am-padding">
     <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">案例</strong> / <small>case</small></div>
   </div>
@@ -41,8 +41,8 @@
               <td>
                 <div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
-                  <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
-                    <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</button>
+                  <a class="am-btn am-btn-default am-btn-xs am-text-secondary" href="<?php echo site_url('pc_index/editcase')?>"><span class="am-icon-pencil-square-o"></span> 编辑</a>
+                    <a class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" href=""><span class="am-icon-trash-o"></span> 删除</a>
                   </div>
                 </div>
               </td>
@@ -69,8 +69,8 @@
               <td>
                 <div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
-                  <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
-                    <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</button>
+                  <a class="am-btn am-btn-default am-btn-xs am-text-secondary" href="<?php echo site_url('pc_index/editcase')?>"><span class="am-icon-pencil-square-o"></span> 编辑</a>
+                    <a class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" href=""><span class="am-icon-trash-o"></span> 删除</a>
                   </div>
                 </div>
               </td>
@@ -97,8 +97,8 @@
               <td>
                 <div class="am-btn-toolbar">
                   <div class="am-btn-group am-btn-group-xs">
-                  <a class="am-btn am-btn-default am-btn-xs am-text-secondary" href="<?php echo site_url('pc_index/addzp')?>"><span class="am-icon-pencil-square-o"></span> 编辑</a>
-                    <a class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</a>
+                  <a class="am-btn am-btn-default am-btn-xs am-text-secondary" href="<?php echo site_url('pc_index/editcase')?>"><span class="am-icon-pencil-square-o"></span> 编辑</a>
+                    <a class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" href=""><span class="am-icon-trash-o"></span> 删除</a>
                   </div>
                 </div>
               </td>
@@ -137,6 +137,6 @@
             $subBox2.click(function(){
               allsubbox2.prop("checked",$subBox2.length == $(".wx_mollcheck:checked").length ? true : false);
             })
-  })
+  });
 </script>
 <!-- content end
