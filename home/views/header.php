@@ -3,15 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="../skin/css/bootstrap.css">
+		    <base href="<?php echo base_url() ;?>home/"/>
+
+		<link rel="stylesheet" href="skin/css/bootstrap.css">
 		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="../skin/css/reset.css"> 
-		<link rel="stylesheet" href="../skin/css/style.css"> 
-		<link rel="stylesheet" href="../skin/css/other.css">
+		<link rel="stylesheet" href="skin/css/reset.css"> 
+		<link rel="stylesheet" href="skin/css/style.css"> 
+		<link rel="stylesheet" href="skin/css/other.css">
 		<script src="http://code.jquery.com/jquery.js"></script>
-		<script src="../skin/js/modernizr.js"></script>
-        <script src="../skin/js/map.js"></script> 
-        <script src="../skin/js/header.js"></script>
+		<script src="skin/js/modernizr.js"></script>
+        <script src="skin/js/map.js"></script> 
+        <script src="skin/js/header.js"></script>
 		<title>可人软件</title>
 	</head>
 <script>
@@ -74,8 +76,8 @@
 	</div> 
 		<header class="header">
 			<a id="cd-logo" href="#0">
-				<img class="hidden-xs" id="hsimg" src="../skin/img/logor.png" alt="Homepage">
-    			<img src="../skin/img/phonelogo.png" id="ph_logo" class="visible-xs" alt="keren"></a>
+				<img class="hidden-xs" id="hsimg" src="skin/img/logor.png" alt="Homepage">
+    			<img src="skin/img/phonelogo.png" id="ph_logo" class="visible-xs" alt="keren"></a>
 		</a>
 		<nav id="cd-top-nav">
 			<ul class="krnav">
@@ -88,9 +90,9 @@
 				
 			</ul>
 			<ul class="pull-right threeUs">
-				<li> <a href="javascript:;" class="krphone"><img src="../skin/img/phone.png" alt="keren"></a> </li>
-				<li> <a href="javascript:;" class="erweima"><img src="../skin/img/code.png" alt="keren"></a></li>
-				<li><a href="#custom" data-toggle="modal" data-whatever="@mdo"> <img src="../skin/img/message.png" alt="keren"></a></li>
+				<li> <a href="javascript:;" class="krphone"><img src="skin/img/phone.png" alt="keren"></a> </li>
+				<li> <a href="javascript:;" class="erweima"><img src="skin/img/code.png" alt="keren"></a></li>
+				<li><a href="#custom" data-toggle="modal" data-whatever="@mdo"> <img src="skin/img/message.png" alt="keren"></a></li>
 			</ul>
 		</nav>
 		<a id="cd-menu-trigger" href="#0"><span class="cd-menu-text"></span><span class="cd-menu-icon"></span></a>
@@ -106,7 +108,7 @@
 	</div>
 	<div class="code2">
 		<div class="bd">
-			<div class="pic"><img src="../skin/img/ercode .png" width='120' height='120'> </div>
+			<div class="pic"><img src="skin/img/ercode .png" width='120' height='120'> </div>
 			<div class="txt">
 				扫描体验微信营销
 			</div>
